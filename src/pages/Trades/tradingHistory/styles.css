@@ -1,0 +1,165 @@
+.billing{
+    background-color: #000000;
+    width: 100%;
+    overflow: hidden; 
+    height: 100rem;
+}
+.notice{
+    background-color:#1e211f ;
+    height: 220px;
+    width: 70%;
+    border-radius: 3px;
+}
+.noticeStyle{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+}
+.noticeTitle{
+    margin-top: 10px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.discription{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;
+    font-weight: 400;
+}
+.disAlignment{
+    display: flex;
+    flex-direction: column;
+}
+.buttonStyle{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.title{
+    color: #FFFFFF;
+}
+
+
+.sorttitle{
+    color: #FFFFFF;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* .filter{
+    display: flex;
+    flex-direction: row;
+ 
+} */
+.search{
+    margin-left: 14%;
+    margin-top: 10px;
+    display: flex;
+}
+.sorticon{
+    display: flex;
+}
+.table{
+    /* margin-left: 260px; */
+    width: 80%;
+}
+.tablebill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.billingstyle{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 20%;
+}
+.billinftitle{
+    color:#FFFFFF;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+}
+.firstDiv{
+    margin-top: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 95%;
+    height: 10%;
+}
+.secondDiv{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 95%;
+    height: 10%;
+    margin-top: 10px;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+}
+.iconsclose{
+    display: flex;
+    justify-content: end;
+}
+.name{
+    color:#FFFFFF;
+    margin-left: 10x;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+}
+.maintitle{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+}
+.moneyline{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.borderTen{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 10px;
+}
+.return{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.final{
+    display: flex;
+    margin-left: 30px;
+}
+.finalSecond{
+    margin-left: 20px;
+}
+.vs{
+    margin-left: 5px;
+}
+.stake{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.tottal{
+    margin-top: 20px;
+}
+.finalSecond{
+    margin-top: 20px;
+}

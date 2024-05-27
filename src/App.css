@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* for header underline animation */
+.header-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+.header-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.header-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.webkitHighlight {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* for custom scroll bar  */
+.custom-scroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.custom-scroll::-moz-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+/* Track */
+.custom-scroll:hover::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: transparent;
+  margin: 10px 20px;
+}
+.custom-scroll:hover::-moz-scrollbar-track {
+  border-radius: 3px;
+  background-color: transparent;
+  margin: 10px 20px;
+}
+/* Handle */
+.custom-scroll:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 16, 21, 0.1);
+  border-radius: 3px;
+}
+.custom-scroll:hover::-moz-scrollbar-thumb {
+  background-color: rgba(16, 16, 21, 0.1);
+  border-radius: 3px;
+}
+
+.MuiSkeleton-root.MuiSkeleton-rounded.MuiSkeleton-wave.css-10j9pna-MuiSkeleton-root::after {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(158, 158, 158, 1),
+    transparent
+  );
+}
+
+.PolicyMarkdown h1 {
+  font-size: 18px;
+  font-weight: 900;
+  padding-top: 10px;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.PolicyMarkdown ul {
+  color: black;
+  padding-bottom: 10px;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 14px;
+}
+
+.PolicyMarkdown ul li::marker {
+  color: #f8bc05;
+}

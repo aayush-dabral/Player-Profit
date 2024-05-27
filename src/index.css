@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 10vh;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #504949;
+    border-radius: 100vh;
+    border: 3px solid #504949;
+    scroll-padding-top: 6px;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #c0a0b9;
+  }
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.gradient-border-wrap {
+  position: relative;
+  border-radius: 7px;
+  background: #E9193F;
+  background: linear-gradient(56deg, #E9193F 0%, #831126 98%);
+  padding: 2px;
+}
+
+/* select {
+  
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+  appearance: none;
+} */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: translateX(0%) scale(0);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+input[type="range"] {
+  accent-color: #B8E834;
+}
+
